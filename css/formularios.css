@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+nav,
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav1 {
+    height: 70px;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 101, 0);
+}
+
+.nav1 a {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav2 {
+    background-color: black;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 14px;
+}
+
+.nav2 a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    padding-right: 20px;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+}
+
+.nav1 a:hover {
+    background-color: rgb(0, 80, 0);
+    padding-top: 20px;
+    padding-bottom: 21px;
+    border-radius: 2px;
+}
+
+.nav2 a:hover {
+    background-color: rgb(54, 54, 54);
+    padding-top: 8px;
+    padding-bottom: 7px;
+    border-radius: 2px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.section {
+    flex: 1;
+    padding: 5px;
+}
+
+.section h2 {
+    font-size: 18px;
+}
+
+.section p {
+    font-size: 14px;
+}
+
+.header-text {
+    font-size: 27px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    /* Coloca el texto en el centro verticalmente */
+    left: 50%;
+    /* Coloca el texto en el centro horizontalmente */
+    transform: translate(-50%, -50%);
+    /* Centra el texto */
+    text-align: center;
+    color: #fff;
+    /* Color del texto */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    /* Sombra del texto */
+}
+
+.header {
+    background-image: url('../img/banner-pemex.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    /* Ajusta la altura según tus necesidades */
+    position: relative;
+    /* Permite superponer elementos */
+}
+
+.texto {
+    margin-top: -4px;
+    /* Ajusta la cantidad de espacio superior */
+    margin-bottom: -4px;
+}
+
+.text-color {
+    color: rgb(255, 234, 0);
+}
+
+.text1 {
+    font-size: 60px;
+}
+
+.container-tabla {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Importación de fuentes de google fonts */
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+body {
+    height: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(240, 255, 242);
+}
+
+.contact_form {
+    width: 500px;
+    height: auto;
+    margin: 60px auto;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #fbfbfb;
+    box-shadow: 0px 0px 10px rgba(10, 50, 0, 0.8);
+}
+
+input {
+    background-color: #fbfbfb;
+    width: 485px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #054d00;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    background-color: #fbfbfb;
+    width: 485px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #054d00;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+label {
+    display: block;
+    float: center;
+}
+
+button {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    background-color: #054d00;
+    border-color: #054d00;
+    border-style: solid;
+    border-radius: 10px;
+    width: 500px;
+    cursor: pointer;
+}
+
+button p {
+    color: #fff;
+}
+
+span {
+    color: #054d00;
+}
+
+h1 {
+    font-size: 39px;
+    text-align: center;
+    color: #054d00;
+}
+
+.formulario input:focus {
+    outline: 0;
+    border: 2px solid #054d00;
+}
+
+.formulario textarea:focus {
+    outline: 0;
+    border: 2px solid #054d00;
+}
